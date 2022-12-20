@@ -9,6 +9,6 @@
   - mongoose
   - lodash
 
-![screenshot1]()
-![screenshot2]()
-![screenshot3]()
+![screenshot1](https://github.com/Scarredhealer/Simple_Blog_webApp-Node.js-/blob/main/Screenshots/ss1.png)
+![screenshot2](https://github.com/Scarredhealer/Simple_Blog_webApp-Node.js-/blob/main/Screenshots/ss2.png)
+![screenshot3](https://github.com/Scarredhealer/Simple_Blog_webApp-Node.js-/blob/main/Screenshots/ss3.png)
