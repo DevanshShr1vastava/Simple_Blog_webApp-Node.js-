@@ -1,0 +1,17 @@
+<%-include("header")%>
+
+<div class = "container-fluid">
+    <div class = "row">
+        <h1 class = "blog_head">Home</h1>
+        <p class = "content">Mauris et malesuada libero, et tristique dolor. Nam condimentum sapien at magna faucibus bibendum. Nullam quis finibus felis, a pulvinar quam. Phasellus id elit imperdiet, venenatis arcu nec, pulvinar metus. Nulla luctus sollicitudin massa. Nullam odio sem, fermentum non suscipit ut, malesuada a justo. Suspendisse facilisis, arcu non tincidunt condimentum, velit elit bibendum tortor, in tincidunt massa elit sed dolor. Ut gravida rutrum mi eget sagittis.</p>
+    </div>
+    <% for( let index = 0; index < blog_array.length; index++ ) { %>
+        <div class = "row">          
+                <h1 class = "blog_head"><%=blog_array[index].title%></h1>    
+                <p class = "blog_content"><%=blog_array[index].content%><a class="blog_link" href = "/posts/<%=blog_array[index].title%>">read more</a></p>       
+        </div>
+        <% } %>
+
+</div>
+
+<%-include("footer")%>

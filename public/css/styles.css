@@ -1,0 +1,58 @@
+body{
+    background-color : #F8EDE3;
+}
+
+.navStyle{
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 0.6rem;
+    padding : 0 15%;
+}
+
+.main_heading{
+    font-weight : 200;
+    font-size : 2.4rem;
+}
+
+.main_heading:hover{
+    color : #7D6E83;
+}
+
+.row{
+    padding-left : 15%;
+    margin : 5px;
+    padding-right : 15%;
+    padding-bottom : 5px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.blog_head{
+    font-size : 1.8rem;
+    font-weight : 500;
+}
+.content{
+    font-size : 1rem;
+    font-weight : 400;
+}
+.blog_content{
+    font-size : 1rem;
+    font-weight : 400;
+    overflow: hidden;
+    max-width: 100ch;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.nav-link{
+    border-style : none solid none none;
+    border-width : 1px;
+    border-color : #7D6E83;
+}
+
+.nav-link:hover{
+    color : #7D6E83;
+}
+.blog_link{
+    text-decoration : none;
+    color : #7D6E83;
+    float : right;
+}

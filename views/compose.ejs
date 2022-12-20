@@ -1,0 +1,21 @@
+<%-include("header")%>
+<div class = "container-fluid">
+    <div class = "row">
+        <h1 class = "blog_head">Compose a blog</h1>
+    </div>
+    <form action="/compose" method = "post">
+    <div class = "row">
+        <label class = "form-label">Title</label>
+        <input class = "form-control" type="text" name="new_blog_title" placeholder = "Enter blog title here!" autocomplete="off">
+    </div>
+    <div class = "row">
+        <label class = "form-label">Content</label>
+        <textarea class = "form-control" name="new_blog_content" cols="30" rows="10" placeholder = "Enter blog content here!"></textarea>
+    </div>
+    <div class = "row">
+        <button class = "btn btn-outline-dark" type="submit">Publish!</button>
+    </div>
+    </form>
+</div>
+
+<%-include("footer")%>
